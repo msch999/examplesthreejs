@@ -1,22 +1,15 @@
 // nach der Antwort darauf: https://stackoverflow.com/questions/62476426/webxr-controllers-for-button-pressing-in-three-js
-
 //// From webxr_vr_dragging example https://threejs.org/examples/#webxr_vr_dragging
-///
-//// TO ACCESS 'ENTER VR' button you need to be in debug view here: https://cdpn.io/jason-buchheim/debug/zYqYGXM
 ///
 // modified example to include a camera dolly that moves around using touchControllers while within webXR and provides haptic feedback
 // by Jason Buchheim
 // https://3d-360.com
 // https://odysseyexpeditions.com
 
-//import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.119.1/build/three.module.min.js";
 import * as THREE from '/three.js/build/three.module.js';
 
-//import { OrbitControls } from "https://cdn.jsdelivr.net/npm/three@0.119.1/examples/jsm/controls/OrbitControls.min.js";
 import { OrbitControls } from "/three.js/examples/jsm/controls/OrbitControls.js";
-//import { VRButton } from "https://cdn.jsdelivr.net/npm/three@0.119.1/examples/jsm/webxr/VRButton.min.js";
 import { VRButton } from "/three.js/examples/jsm/webxr/VRButton.js";
-//import { XRControllerModelFactory } from "https://cdn.jsdelivr.net/npm/three@0.119.1/examples/jsm/webxr/XRControllerModelFactory.min.js";
 import { XRControllerModelFactory } from "/three.js/examples/jsm/webxr/XRControllerModelFactory.js";
 
 var container;
